@@ -1,4 +1,5 @@
 import React from 'react';
+import Cartwidget from '../CartWidget/Cartwidget'
 
 const Navbar = () => {
     return (
@@ -12,6 +13,7 @@ const Navbar = () => {
                         <button className="btn btn-outline-light mr-2" onClick={() => window.location.href = "vacio"}>Accesorios y Componentes</button>
                         <button className="btn btn-outline-light" onClick={() => window.location.href = "vacio"}>Contacto</button>
                     </div>
+                    <Cartwidget  />
                 </div>
             </nav>
         </header>
